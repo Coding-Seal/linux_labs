@@ -1,1 +1,0 @@
-find ~ -name "*.txt" -exec grep -Pio "(?<=\s|:|\.|\(|^)[a-z0-9]+@[a-z0-9]+\.[a-z0-9]+(?=$|\.|,|\))" '{}' \; tr [A-Z] [a-z] |sort > allemails.lst

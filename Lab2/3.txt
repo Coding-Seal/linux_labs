@@ -1,0 +1,6 @@
+email-1@ya.spstu.ru
+email.2@ya.spstu.ru
+email-3@ya.spstu.ru
+email-4@ya.spstu.ru
+email5@ya.spstu.ru
+email6@ya.spstu.ru

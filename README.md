@@ -23,7 +23,7 @@ Lab_3 | ✔️ | ❌ | ---
 ## Подтягиваем репозиторий на машину
 
 ```bash
-git clone https://github.com/Coding-Seal/labs
+git clone https://github.com/Coding-Seal/labs.git
 ```
 ## Запуск
 Чаще всего в папке лабы будет лежать файл ***exec.bash***

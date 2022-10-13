@@ -1,0 +1,1 @@
+ls file1 file2 2> |

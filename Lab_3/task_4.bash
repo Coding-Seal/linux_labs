@@ -1,1 +1,1 @@
-ls file1 file2 2> |
+{ ls file1 file2 2>&1 >&3 | cat -b >file1; } 3>&1

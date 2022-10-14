@@ -1,4 +1,4 @@
-{ ls file1 file2 2>&1 1>&3 | cat -b >file1 3>&- ; } 3>&1
+{ ls file1 file2 2>&1 1>&3 | cat -b >file1  ; } 3>&1
 
 
 # Command grouping

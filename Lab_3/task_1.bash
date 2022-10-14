@@ -1,2 +1,1 @@
-grep -Eio "^[a-z]*a[a-z]*$" example.txt | sort -rm
-# sort -rm means reverse, merge(do not sort)
+grep -i "a" example.txt | tac -r

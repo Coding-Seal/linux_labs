@@ -1,14 +1,7 @@
 #!/bin/bash
-file="example.txt"
+file=example.txt
 index=1
-k=$1
-n=$(($2+$k-1))
-while read line; do
-    if [ $index -ge $k ] && [ $n -ge $index ] ; then 
-        echo $line
-    fi
-    index=$(( $index + 1 ))
-done < $file
+echo $(head -n $(($1 +$2)) $file | tail -n $2 )
 
 
 

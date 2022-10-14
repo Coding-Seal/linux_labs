@@ -1,1 +1,1 @@
-find -name "*.txt" -exec grep -Pio "(?<=\s|:|\.|\(|^)[a-z]([-._]?[a-z0-9])+@[a-z]([-._]?[a-z0-9])+(\.[a-z]+)(?=\s|$|\.|,|\))" '{}' \; | tr [A-Z] [a-z] | sort -u >> allemails.lst
+find -name "*.txt" -exec grep -Pio "(?<=\s|:|\.|\(|^)[a-z]([-._]?[a-z0-9])+@[a-z]([-._]?[a-z0-9])+(\.[a-z]+)(?=\s|$|\.|,|\))" '{}' \; | tr [A-Z] [a-z] | sort -u >> allemails.lstgit 

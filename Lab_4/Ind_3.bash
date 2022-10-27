@@ -1,7 +1,6 @@
 #!/bin/bash
 
-N=$1
-i=$N 
+N=$1 
 for ((i = $N ; i > 0 ; i--));
 do
     res=""

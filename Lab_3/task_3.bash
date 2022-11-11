@@ -1,7 +1,9 @@
 #!/bin/bash
 file=example.txt
-index=1
-echo $(head -n $(($1 +$2)) $file | tail -n $2 )
+start=$1
+quant=$2
+
+head -n $(($start+$quant)) $file | tail -n $quant
 
 
 

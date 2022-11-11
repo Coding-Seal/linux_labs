@@ -1,1 +1,1 @@
-grep -i "a" example.txt | tac -r
+grep -i "a" example.txt | tac

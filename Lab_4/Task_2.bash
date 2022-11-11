@@ -8,7 +8,7 @@ name=$1
 #     echo "File $name not found"
 # fi
 
-if [[ -e $name ]]; then
+if [[ -f $name ]]; then
     echo "File $name exists"
 else
     echo "File $name not found"
